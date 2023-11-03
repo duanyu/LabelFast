@@ -2,7 +2,7 @@
 
 ### 情感分类
 
-**amazon_review_sentiment_classification_sample.xlsx**
+**amazon_review_sentiment_classification_sample.xlsx/csv**
 
 * 亚马逊评价情感分类样例数据
 * task_type ： CLS
