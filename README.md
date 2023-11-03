@@ -9,4 +9,4 @@ https://modelscope.cn/studios/duanyu/LabelFast/summary
 
 ## Todo
 
-补充代码，欢迎加V催我（duanyu027）
+这周末就把代码补一下！
