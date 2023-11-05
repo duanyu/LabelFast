@@ -37,8 +37,11 @@ https://modelscope.cn/studios/duanyu/LabelFast/summary
 
 参照```test.py```
 
-
 ## LabelFast的核心技术
 
 1. **Instruction-Tuning Language Model**。以[Flan-T5](https://arxiv.org/abs/2210.11416 "Flan-T5")、[SeqGPT](https://arxiv.org/abs/2308.10529 "SeqGPT")为代表，基于预训练LLM，在庞大的instruction data（将NLP任务改写为prompt->output的格式）上进行Fine-Tuning，使得模型在NLP任务上具备较强的Zero-Shot Task Generalization能力，能够以Zero-Shot的形式执行众多NLP任务。这部分对应LabelFast中的标注模型。
 2. **Confidence Estimation**。得到模型对于标注结果的置信度，目标是尽可能well-calibrated（高confidence -> 高Acc、低confidence -> 低Acc），得到confidence之后，可用于决定何时信任模型标注、何时采用人工标注。计算方法包括Prompting、Entropy、Token Prob等，方法的细节可参照refuel.ai的[这篇博文](https://www.refuel.ai/blog-posts/labeling-with-confidence "refuel.ai blog: labeling with confidence")。
+
+## 联系作者
+
+如果您对LabelFast有任何建议，欢迎添加作者微信进行交流（VX：duanyu027）！
