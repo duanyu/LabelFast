@@ -1,6 +1,4 @@
-## LabelFast
-
-简单样本，交给LabelFast。
+## 简单样本，交给LabelFast
 
 LabelFast是中文世界的NLP自动标注开源工具，旨在用LLM技术，识别并快速标注简单文本数据。使用LabelFast，人类标注员只需关注那些少量而关键的难样本，达到降本增效的效果。
 
