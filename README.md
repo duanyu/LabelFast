@@ -44,4 +44,4 @@ https://modelscope.cn/studios/duanyu/LabelFast/summary
 
 ## 联系作者
 
-如果您对LabelFast有任何建议，欢迎添加作者微信进行交流（VX：duanyu027，备注“NLP标注”）！
+如果您对LabelFast有任何建议，欢迎添加作者微信进行交流（VX：duanyu027，备注“LabelFast”）！
