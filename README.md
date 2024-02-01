@@ -45,3 +45,6 @@ https://modelscope.cn/studios/duanyu/LabelFast/summary
 ## 联系作者
 
 如果您对LabelFast有任何建议，欢迎添加作者微信进行交流~（VX：duanyu027，最好备注一声“LabelFast”）
+
+[Buy Me a Coffee](https://www.buymeacoffee.com/derrick.dy)
+
