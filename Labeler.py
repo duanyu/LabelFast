@@ -146,6 +146,7 @@ class Labeler_seqgpt():
 
         return ner_out
 
+
 class Labeler():
     def __init__(self, model_name):
         self.model_name = model_name
