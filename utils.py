@@ -15,7 +15,7 @@ def get_cls_performance_by_threshold(res, threshold):
 
     return threshold_table
 
-def get_ner_performance_by_threshold(res, threshold):
+def get_ner_performance_by_threshold(schema, res, threshold):
     # 得到ner任务下，某个threshold下的metric情况，根据需要选择合适的threshold
     threshold_table = []
 
