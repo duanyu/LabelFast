@@ -16,7 +16,7 @@ LabelFast是中文世界的NLP自动标注开源工具，旨在用LLM技术，�
 ## 版本说明
 ### **v0.2（最新）**
 1. 标注模型支持：mt5 - [finetuned mT5模型](https://modelscope.cn/models/damo/nlp_mt5_zero-shot-augment_chinese-base/summary "全任务零样本学习-mT5分类增强版-中文-base")、seq-gpt（新增） - [seqgpt-560M模型](https://modelscope.cn/models/iic/nlp_seqgpt-560m/summary);
-2. 标注任务支持：CLS - 文本多分类，NER - 命名实体识别（新增）；
+2. 标注任务支持：CLS - 文本多分类，NER（新增） - 命名实体识别；
 3. confidence estimation方法：使用First Token Prob方法。
 
 ### **v0.1**
