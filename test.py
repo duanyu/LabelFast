@@ -57,5 +57,5 @@ ground_truth = [{'人物': ['杰克逊', '罗德曼']},
 res = labeler.run(input_text, task_type, schema, ground_truth)
 print(res)
 for threshold in [0.5, 0.6, 0.7]:
-    threshold_table = get_ner_performance_by_threshold(res, threshold)
+    threshold_table = get_ner_performance_by_threshold(schema, res, threshold)
     print(threshold_table)
