@@ -14,24 +14,30 @@ LabelFast是中文世界的NLP自动标注开源工具，旨在用LLM技术，�
     
 
 ## 版本说明
+### **v0.2（最新）**
+1. 标注模型支持：mt5 - [finetuned mT5模型](https://modelscope.cn/models/damo/nlp_mt5_zero-shot-augment_chinese-base/summary "全任务零样本学习-mT5分类增强版-中文-base")、seq-gpt（新增） - [seqgpt-560M模型](https://modelscope.cn/models/iic/nlp_seqgpt-560m/summary);
+2. 标注任务支持：CLS - 文本多分类，NER - 命名实体识别（新增）；
+3. confidence estimation方法：使用First Token Prob方法。
 
-**v0.1**（最新）
+### **v0.1**
 1. 标注模型支持[finetuned mT5模型](https://modelscope.cn/models/damo/nlp_mt5_zero-shot-augment_chinese-base/summary "全任务零样本学习-mT5分类增强版-中文-base")；
 2. 标注任务支持文本多分类；
-3. confidence estimation使用Token Prob方法。
+3. confidence estimation使用First Token Prob方法。
 
 ## Demo地址
 
 https://modelscope.cn/studios/duanyu/LabelFast/summary
 
+受创空间计算资源限制，Demo**只部署了mt5模型，仅支持CLS任务标注**。
+
 ## 如何使用
 
 ### 环境依赖
 
-+ python：3.8.16
++ python >= 3.8
 + 第三方库依赖
 
-```pip3 install modelscope==1.9.4 transformers==4.34.1 torch==2.0.1 scikit-learn==1.3.0 sentencepiece==0.1.99 ```
+``` pip3 install modelscope transformers torch scikit-learn sentencepiece ```
 
 ### 示例
 
