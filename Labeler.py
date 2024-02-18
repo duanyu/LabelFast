@@ -174,7 +174,7 @@ class Labeler():
                 assert self.model_name in ['seq-gpt']
                 ner_with_confidence = self.labeler.get_ner_confidence(prompt+'[GEN]', prediction)
                 if truth_label is None:
-                    res.append({'input_text': input_text, 'Labeler_prediction_with_confidence': ner_confidence})
+                    res.append({'input_text': input_text, 'Labeler_prediction_with_confidence': ner_with_confidence})
                 else:
                     res.append({'input_text': input_text, 'label': truth_label[i], 'Labeler_prediction_with_confidence': ner_with_confidence})
 
