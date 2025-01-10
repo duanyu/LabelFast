@@ -41,10 +41,10 @@ https://modelscope.cn/studios/duanyu/LabelFast/summary
 
 ### 环境依赖
 
-+ python >= 3.8
++ python = 3.10
 + 第三方库依赖
 
-``` pip3 install modelscope transformers torch scikit-learn sentencepiece ```
+``` pip3 install modelscope ms-swift transformers torch scikit-learn sentencepiece ```
 
 ### 示例
 
