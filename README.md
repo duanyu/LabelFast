@@ -42,9 +42,10 @@ https://modelscope.cn/studios/duanyu/LabelFast/summary
 ### 环境依赖
 
 + 建议用conda新建python 3.10环境
-+ 第三方库依赖
++ 依赖torch，测试2.3.1、2.5.1均可使用，其他版本未尝试
++ 其他第三方库依赖
 
-``` pip3 install modelscope ms-swift transformers torch scikit-learn sentencepiece ```
+``` pip3 install modelscope==1.22.3 ms-swift==3.0.3 transformers==4.48.1 datasets==3.2.0 scikit-learn==1.6.1 sentencepiece==0.2.0```
 
 ### 示例
 
